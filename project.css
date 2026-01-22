@@ -1,0 +1,30 @@
+body {
+    font-family:Arial,sans-serif;
+    text-align:center;
+    background-color:#f5f5f5;
+}
+.menu {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    width:1400;
+    flex-wrap:wrap;
+}
+.item {
+    background:white;
+    padding:5px;
+    border-radius:10px;
+    width:150px;
+}
+button {
+    background-color:#e2c0a9;
+    color:white;
+    border:none;
+    padding:3px;
+    cursor:pointer;
+    border-radius:3px;
+}
+button:hover {
+    background-color:#e65c00;
+}
+
